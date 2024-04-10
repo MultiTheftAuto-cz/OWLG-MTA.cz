@@ -1,30 +1,16 @@
-# OwlGaming MTA
+# OwlGaming verze od MultiTheftAuto.cz
+Tato repozitář obsahuje upravenou základnu OwlGaming MTA pro Multi Theft Auto od MultiTheftAuto.cz.
 
-This repository contains the OwlGaming MTA codebase for Multi Theft Auto. The recommended way to deploy the code is using a docker image.
+## Poděkování
+- OwlGaming MTA Development Team
+- Přispěvatelé MultiTheftAuto.cz
 
-## Credits
+## Logy
+Logy se zapisují do `mods/deathmatch/resources/logs/logs` tak, jak jsou vytvářeny ve hře. Doporučuje se je zobrazit pomocí Filebeat s Elasticsearch, aby bylo možné je vyhledávat.
 
-The code in this repository comes from various sources from probably nearly a decade of development. Thank you to everyone who contributed over the years.
-
-## Building for release
-
-- Build the image `docker build -t owlgaming-mta .`
-- Refer to the environment variable below and deploy using your MySQL Database
-```shell
-docker run -p 22003:22003 -p 22005:22005 -p 22126:22126/udp -e MTA_DATABASE_NAME=... owlgaming-mta
-```
-- You can grab the latest structures for your database from `mods/deathmatch/data`
-
-## Logs
-
-Logs are written to `mods/deathmatch/resources/logs/logs` as they are created in game. It's recommended to pick these up using Filebeat with Elasticsearch to make them searchable.
-
-## Quick Links
-
-* [Coding Conventions](coding_conventions.md)
-* [Useful Functions](useful_functions.md)
-
-## Docker Build Environment Variables
+## Rychlé odkazy
+* [Konvence](coding_conventions.md)
+* [Užitkové funkce](useful_functions.md)
 
 ### MTASERVER.CONF
 - `SERVER_IP`
