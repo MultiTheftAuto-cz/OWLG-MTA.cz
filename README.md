@@ -9,7 +9,6 @@ Tato repozitář obsahuje upravenou základnu OwlGaming MTA pro Multi Theft Auto
 Logy se zapisují do `mods/deathmatch/resources/logs/logs` tak, jak jsou vytvářeny ve hře. Doporučuje se je zobrazit pomocí Filebeat s Elasticsearch, aby bylo možné je vyhledávat.
 
 ## Rychlé odkazy
-* [Konvence](coding_conventions.md)
 * [Užitkové funkce](useful_functions.md)
 
 ### MTASERVER.CONF
