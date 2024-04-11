@@ -4,17 +4,11 @@
 	<!-- MySQL -->
 	<setting name="@mysql.socket" value="unix_socket=/var/run/mysqld/mysqld.sock" />
 	<!-- MTA DB -->
-	<setting name="@mysql.database" value="MTA_DATABASE_NAME" />
-	<setting name="@mysql.username" value="MTA_DATABASE_USERNAME" />
-	<setting name="@mysql.password" value="MTA_DATABASE_PASSWORD" />
-	<setting name="@mysql.hostname" value="MTA_DATABASE_HOST" />
-	<setting name="@mysql.port" value="MTA_DATABASE_PORT" />
-	<!-- Core DB -->
-	<setting name="@mysql.core_database" value="CORE_DATABASE_NAME" />
-	<setting name="@mysql.core_username" value="CORE_DATABASE_USERNAME" />
-	<setting name="@mysql.core_password" value="CORE_DATABASE_PASSWORD" />
-	<setting name="@mysql.core_hostname" value="CORE_DATABASE_HOST" />
-	<setting name="@mysql.core_port" value="CORE_DATABASE_PORT" />
+	<setting name="@mysql.database" value="owl" />
+	<setting name="@mysql.username" value="root" />
+	<setting name="@mysql.password" value="" />
+	<setting name="@mysql.hostname" value="127.0.0.1" />
+	<setting name="@mysql.port" value="3306" />
 
 	<!-- UCP Access -->
 	<setting name="@usercontrolpanel.website_pass" value="WEBSITE_PASSWORD" />

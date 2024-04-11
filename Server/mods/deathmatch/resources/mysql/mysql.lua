@@ -17,11 +17,11 @@ password = get( "password" )
 database = get( "database" )
 port = tonumber( get( "port" ) )
 
-core_hostname = get( "core_hostname" )
-core_username = get( "core_username" )
-core_password = get( "core_password" )
-core_database = get( "core_database" )
-core_port = tonumber( get( "core_port" ) )
+core_hostname = get( "hostname" )
+core_username = get( "username" )
+core_password = get( "password" )
+core_database = get( "database" )
+core_port = tonumber( get( "port" ) )
 
 local dbConns = {}
 
