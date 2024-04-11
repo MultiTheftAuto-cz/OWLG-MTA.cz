@@ -11,11 +11,6 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
-
--- Dumping database structure for mta
-CREATE DATABASE IF NOT EXISTS `mta` /*!40100 DEFAULT CHARACTER SET latin1 */;
-USE `mta`;
-
 -- Dumping structure for table mta.account_details
 CREATE TABLE IF NOT EXISTS `account_details` (
   `account_id` int(11) NOT NULL AUTO_INCREMENT,
